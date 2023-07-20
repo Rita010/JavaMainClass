@@ -6,7 +6,7 @@ public class day22b {
 		
 		//overriding - different class, same method, same signature, inheritance
 	
-			Chase pune = new Chase("USA", "Maryland");
+			Chase pune = new Chase("USA", "Phoenix");
 
 				pune.loan();
 				pune.save();
