@@ -26,12 +26,12 @@ class Car {
 		 this.carName = name;
 		 this.carType = type;
 	 }
-	 public void Greet() {
+	 public void Greetings() {
 		 System.out.println("Congratulation on new car ".concat(this.carName));
 	 }
 	 
 	 
-	 // Inner classjj	
+	 // Inner class	
 	 
 	 
  class Engine {
@@ -42,11 +42,11 @@ class Car {
 	 public void engineSize() {
 			 
 			 if(Car.this.carType.equals("ford")) {
-				 this.engineSize = "smaller";
+				 this.engineSize = "Smaller";
 				 System.out.println(this.engineSize);
 			 }
 			 else if(Car.this.carType.equals("BMw")) {
-				 this.engineSize = "bigger";
+				 this.engineSize = "Bigger";
 				 System.out.println(this.engineSize);
 			 } 
 			 
