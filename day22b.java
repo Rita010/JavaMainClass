@@ -1,6 +1,6 @@
 package One;   // showing error here. Need to ask sir
 
-public class day22bb {
+public class day22b {
 
 	public static void main(String[] args) {
 		
@@ -48,11 +48,11 @@ public class day22bb {
 			// overloading the parent methods loan and save
 
 			public void save() {
-				System.out.println("This is save for PNC pune");
+				System.out.println("This is save for PNC Kathmadu");
 			}
 
 			public void loan() {
-				System.out.println("This is loan from PNC pune");
+				System.out.println("This is loan from PNC Kathmandu");
 			}
 
 		}
@@ -70,11 +70,11 @@ public class day22bb {
 
 			// overriding the parent methods loan and save
 			public void save() {
-				System.out.println("This is save from SBIZ pune");
+				System.out.println("This is save from Chase Bank");
 			}
 
 			public void loan() {
-				System.out.println("This is loan for SBIZ pune");
+				System.out.println("This is loan from Chase Bank");
 			}
 		
 
