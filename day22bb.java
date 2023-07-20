@@ -1,4 +1,4 @@
-package One;
+package One;   // showing error here. Need to ask sir
 
 public class day22bb {
 
@@ -6,7 +6,7 @@ public class day22bb {
 		
 		//overriding - different class, same method, same signature, inheritance
 	
-				SBIZ pune = new SBIZ("India", "pune");
+			Chase pune = new Chase("USA", "Maryland");
 
 				pune.loan();
 				pune.save();
@@ -16,52 +16,52 @@ public class day22bb {
 
 		}
 
-		class WorldBank {
+		class USBank {
 			String country;
 
 			// constructor
 
-			public WorldBank(String cnt) {
+			public USBank(String cnt) {
 				this.country = cnt;
 			}
 
 			public void save() {
-				System.out.println("This is a save method form the worldbank.");
+				System.out.println("This is a save method form the Usbank.");
 			}
 
 			public void loan() {
-				System.out.println("This is a loan method form the worldbank.");
+				System.out.println("This is a loan method form the Usbank.");
 			}
 
 			public void displyMessage() {
-				System.out.println("Welcome to worldBank.");
+				System.out.println("Welcome to UsBank.");
 			}
 		}
 
-		class PNB extends WorldBank {
+		class PNC extends USBank {
 			String branchName;
 
-			public PNB(String cnt, String bn) {
+			public PNC(String cnt, String bn) {
 				super(cnt);
 				this.branchName = bn;
 			}
 			// overloading the parent methods loan and save
 
 			public void save() {
-				System.out.println("This is save for PNB pune");
+				System.out.println("This is save for PNC pune");
 			}
 
 			public void loan() {
-				System.out.println("This is loan from PNB pune");
+				System.out.println("This is loan from PNC pune");
 			}
 
 		}
 
-		class SBIZ extends WorldBank {
+		class Chase extends USBank {
 
 			String branchName;
 
-			public SBIZ(String cnt, String bn) {
+			public Chase(String cnt, String bn) {
 				super(cnt);
 				this.branchName = bn;
 			}
@@ -70,11 +70,11 @@ public class day22bb {
 
 			// overriding the parent methods loan and save
 			public void save() {
-				System.out.println("This is save from SBIE pune");
+				System.out.println("This is save from SBIZ pune");
 			}
 
 			public void loan() {
-				System.out.println("This is loan for SBIE pune");
+				System.out.println("This is loan for SBIZ pune");
 			}
 		
 
