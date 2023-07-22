@@ -25,9 +25,9 @@ public class day20R {
 }
 class StudentBa{
 	String firstName = "rita";
-	
 	String lastName = " khatiwoda";
 	int ssn = 123;
+	
 	public void displayName() {
 		System.out.println(this.firstName + this.lastName);
 	}		

@@ -1,6 +1,6 @@
 package One;
 
-public class day27A {
+public class day27InnerClassA {
 
 	public static void main(String[] args) {
 

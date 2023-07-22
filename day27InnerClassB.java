@@ -1,6 +1,6 @@
 package One;
 
-public class day27B {
+public class day27InnerClassB {
 
 	public static void main(String[] args) {
 
@@ -19,15 +19,15 @@ public class day27B {
 }
 
 class Car {
-	 String carName;
-	 String carType;
+	 String CarName;
+	 String CarType;
 	 
 	 public Car(String name, String type) {
-		 this.carName = name;
-		 this.carType = type;
+		 this.CarName = name;
+		 this.CarType = type;
 	 }
 	 public void Greetings() {
-		 System.out.println("Congratulation on new car ".concat(this.carName));
+		 System.out.println("Congratulation on new car ".concat(this.CarName));
 	 }
 	 
 	 
@@ -41,11 +41,11 @@ class Car {
 		 
 	 public void engineSize() {
 			 
-			 if(Car.this.carType.equals("ford")) {
+			 if(Car.this.CarType.equals("ford")) {
 				 this.engineSize = "Smaller";
 				 System.out.println(this.engineSize);
 			 }
-			 else if(Car.this.carType.equals("BMw")) {
+			 else if(Car.this.CarType.equals("BMW")) {
 				 this.engineSize = "Bigger";
 				 System.out.println(this.engineSize);
 			 } 

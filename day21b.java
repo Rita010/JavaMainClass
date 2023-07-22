@@ -42,7 +42,8 @@ public class day21b {
 		super(fn,ln,ag);
 		this.salary = sal;
 	}
-	public void displaySalary() {
+	public void displaySalary() 
+{
 		System.out.println(this.salary);
 	}
 }
