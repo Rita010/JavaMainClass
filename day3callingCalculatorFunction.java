@@ -1,6 +1,6 @@
 package One;
 
-public class day3 {
+public class day3callingCalculatorFunction {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

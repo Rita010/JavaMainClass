@@ -10,7 +10,7 @@ public class day25rev {
 		lalit.loan();
 		lalit.save();
 
-		CivilBank cvl = new CivilBank();
+		CivilBank7 cvl = new CivilBank7();
 		cvl.branchName();
 		cvl.displayCountry();
 		cvl.loan();
@@ -44,7 +44,7 @@ class SBIbank extends worldBankB{
 		System.out.println("It is Lalitpur Branch");
 	}
 }
-class CivilBank extends worldBankB{
+class CivilBank7 extends worldBankB{
 
 	@Override
 	public void loan() {

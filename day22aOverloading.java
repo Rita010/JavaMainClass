@@ -1,6 +1,6 @@
 package One;
 
-public class day22a {
+public class day22aOverloading {
 
 	public static void main(String[] args) {
 

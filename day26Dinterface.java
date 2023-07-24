@@ -14,7 +14,7 @@ interface Five{
 
 
 
-public class day26D {
+public class day26Dinterface {
 
 	public static void main(String[] args) {
 

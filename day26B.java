@@ -10,7 +10,7 @@ class B{
 		System.out.println("Bye Bye");
 	}
 }
-	class C extends A{  
+class C extends A{  
 		// only one class can be inherited in the child class
 		
 	}
