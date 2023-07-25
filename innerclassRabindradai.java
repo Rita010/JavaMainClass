@@ -7,8 +7,6 @@ public class innerclassRabindradai {
 		Department dp = new Department("Account","Admin");
 		Department.Employee ep = dp.new Employee();
 	
-		dp.DeptLocation();
-		ep.EmployeeName();
 		
 	}
 
