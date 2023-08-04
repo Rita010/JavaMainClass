@@ -3,7 +3,11 @@ package One;
 public class day28singleton {
 
 	public static void main(String[] args) {
-
+		// singleton is important for interview
+		// it is used when you want to establish a connection between Database
+		
+		
+		
 		// Database a= new Database(); // constructor is private
 
 		Database db3 = Database.getInstance();

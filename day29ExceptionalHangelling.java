@@ -79,7 +79,7 @@ public class day29ExceptionalHangelling {
 			System.out.println(msg);
 		}
 		finally {
-			System.out.println("I wil be executed anyhow");
+			System.out.println("It wil be executed anyhow");
 		}
 }
 

@@ -1,6 +1,6 @@
 package One;
 
-public class switchClass {
+public class switchCaseFinalPrac {
 
 	public static void main(String[] args) {
 
