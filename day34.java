@@ -1,6 +1,6 @@
 package One;
 import java.util.Map;
-interface Course{
+interface Course{             // (interface has only definition no declaration )
 	public void courseOne();
 	public void courseTwo();
 	public void courseThree();
@@ -93,7 +93,8 @@ class Minskole implements Course{
 public class day34 {
 
 	public static void main(String[] args) {
-		
+	
+	// reference 	
 		Course firm;
 		firm = new Zorba();
 		firm.courseFive();

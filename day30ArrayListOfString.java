@@ -2,7 +2,7 @@ package One;
 
 import java.util.ArrayList;
 
-public class day30 {
+public class day30ArrayListOfString {
 
 	public static void main(String[] args) {
 
@@ -29,7 +29,7 @@ public class day30 {
 		System.out.println(b);
 		System.out.println(c);
 		System.out.println(d);
-				
+		System.out.println("___________________");		
 		for(int i = 0; i < language.size(); i++) {
 			//System.out.println(i);
 			System.out.println(language.get(i));

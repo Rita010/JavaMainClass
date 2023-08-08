@@ -1,6 +1,6 @@
 package One;
 import java.util.ArrayList;
-public class day32 {
+public class day32ArrayListOfBolean {
 
 	public static void main(String[] args) {
 

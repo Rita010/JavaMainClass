@@ -3,14 +3,14 @@ package One;
 import java.util.Arrays;
 import java.util.List;
 
-public class day36 {
+public class day36Stream {
 
 	public static void main(String[] args) {
 
 		Employee[]employees = {
 				new Employee (1, "rita khatiwoda", 1000),
-				new Employee (1,"laxmi chapagain", 5000),
-				new Employee (1,"pragati gautam", 6000)
+				new Employee (2,"laxmi chapagain", 5000),
+				new Employee (3,"pragati gautam", 6000)
 		};
 //		
 //		for(int i = 0; i < employees.length; i++) {
@@ -30,6 +30,7 @@ public class day36 {
 		
 	
 		// filter()
+		
 		// map()
 	
 		

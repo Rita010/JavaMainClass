@@ -1,6 +1,6 @@
 package One;
 
-public class day33JavaScript {
+public class day33noNeedToDoItFromJavaScript {
 
 	public static void main(String[] args) {
 

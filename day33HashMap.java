@@ -8,12 +8,13 @@ public class day33HashMap {
 		
 	HashMap<String,Integer>students = new HashMap<>();
 		
-		
-	students.put("rita", 43);
+		//adding Data
+	students.put("rita", 43);//(Key, Value)
 	students.put("satya", 37);
 	students.put("laxmi", 31);
 	students.put("pragati", 23);
 	students.put("rashmila", 33);
+	//Testing record
 	System.out.println(students); //{laxmi=31, rita=43, satya=37, pragati=23, rashmila=33}
 	
 	// Accessing the value from HashMap()

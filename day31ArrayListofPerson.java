@@ -1,6 +1,6 @@
 package One;
 import java.util.ArrayList;
-public class day31 {
+public class day31ArrayListofPerson {
 
 	public static void main(String[] args) {
 		

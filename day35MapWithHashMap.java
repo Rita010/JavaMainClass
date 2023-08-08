@@ -1,7 +1,8 @@
 package One;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
-public class day35 {
+public class day35MapWithHashMap {
 
 	public static void main(String[] args) {
 
@@ -15,6 +16,7 @@ public class day35 {
 		course.put("courseFive", "selenium");
 		System.out.println(course);
 		
+		//for each loop
 		for (Map.Entry<String, String> entry : course.entrySet()) {
 			System.out.println(entry.getKey()+ entry.getValue());
 		}
@@ -39,7 +41,7 @@ public class day35 {
 			System.out.println(propVariable);
 		}
 		
-	// another program
+	//  program  3
 		
 		Map<String, String> vehicle = new HashMap<String, String>();
 		vehicle.put("color", "red");
@@ -47,14 +49,31 @@ public class day35 {
 		vehicle.put("company", "ford");
 		System.out.println(vehicle);
 		
+		System.out.println("-------------------");
+		
 		System.out.println(vehicle.get("color"));
+		
+		System.out.println("-------------------");
+		
 		for(String key : vehicle.keySet()) {
 			System.out.println(key);
 			System.out.println(vehicle.get(key));
 		}
+		System.out.println("-------------------");	
 		
 		// Iterator
 		
+		// using iterator to loop through the vehicle HashMap
+		
+		Iterator<Map.Entry<String,String>> iterator = vehicle.entrySet().iterator();
+		
+		while(iterator.hasNext()) {
+			Map.Entry<String, String> entry = iterator.next();
+			String key = entry.getKey();
+			String value = entry.getValue();
+			
+			System.out.println(key +" : "+ value);
+		}
 		
 		
 		
@@ -65,3 +84,5 @@ public class day35 {
 	}
 
 }
+
+
