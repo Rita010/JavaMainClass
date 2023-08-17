@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class day38 {
 
 	public static void main(String[] args) {
-
+ 
 		List<PersonS> peoples = List.of(
 					new PersonS("rita khatiwoda",24,"Phoenix"),
 					new PersonS("laxmi chapagain",24,"maryland"),
