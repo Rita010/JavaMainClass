@@ -1,6 +1,6 @@
 package One;
 
-public class SingletonFingalPractice 
+public class SingletonlPractice1 
 {
 
 	public static void main(String[] args) 

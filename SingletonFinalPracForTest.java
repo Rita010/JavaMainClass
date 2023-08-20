@@ -1,6 +1,6 @@
 package One;
 
-public class SingletonPracForTest {
+public class SingletonFinalPracForTest {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class SingletonPracForTest {
 	}
 
 }
-class DatabaseA{
+class DatabaseA{     
 	private static DatabaseA dbObject = null;
 	private DatabaseA() {
 		
