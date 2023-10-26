@@ -35,7 +35,7 @@ class TestSize{
 
 
 
-public class day41 {
+public class day41enumRevisionBySir {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
